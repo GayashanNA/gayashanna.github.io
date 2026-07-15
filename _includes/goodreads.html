@@ -1,0 +1,34 @@
+<!-- goodreads.html -->
+{%- assign gr_user = site.goodreads.user_id -%}
+{%- assign gr_shelf = site.goodreads.shelf | default: 'currently-reading' -%}
+{%- assign gr_widget = site.goodreads.widget_id | default: '1682828490' -%}
+<style type="text/css" media="screen">
+  .gr_grid_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .gr_grid_book_container {
+    width: 98px;
+    height: 160px;
+    overflow: hidden;
+  }
+
+  .gr_grid_branding {
+    font-size: 0.9em;
+    text-decoration: none;
+    width: 100%;
+  }
+</style>
+<div id="gr_grid_widget_{{ gr_widget }}">
+  <!-- Replaced by the script below once it loads. If the shelf is empty, Goodreads
+       returns this container with no books in it, so keep a link here regardless. -->
+  <div class="gr_grid_container">
+    <a class="gr_grid_branding" rel="nofollow"
+      href="https://www.goodreads.com/review/list/{{ gr_user }}?shelf={{ gr_shelf }}">My books on Goodreads &raquo;</a>
+  </div>
+</div>
+<script
+  src="https://www.goodreads.com/review/grid_widget/{{ gr_user }}.{{ gr_shelf }}?cover_size=medium&hide_link=&hide_title=true&num_books={{ site.goodreads.num_books | default: 10 }}&order=d&shelf={{ gr_shelf }}&sort=date_added&widget_id={{ gr_widget }}"
+  type="text/javascript" charset="utf-8"></script>

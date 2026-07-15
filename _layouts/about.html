@@ -46,6 +46,12 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
+          <!-- Goodreads -->
+          {% if page.goodreads -%}
+            <h2>{{ page.goodreads_heading | default: 'bookshelf' }}</h2>
+            {%- include goodreads.html %}
+          {%- endif %}
+
           <!-- Social -->
           {%- if page.social %}
             <div class="social">

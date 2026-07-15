@@ -520,10 +520,20 @@ footer.sticky-bottom {
     }
   }
 
+  // Upstream fixes these at 250px, which leaves a ragged gap when a category holds
+  // only two or three projects. Percentages let each row fill the content column.
+  // Keep in step with the `gutter` in assets/js/masonry.js (10px).
   .grid-sizer,
   .grid-item {
-    width: 250px;
+    width: 100%;
     margin-bottom: 10px;
+  }
+
+  @media (min-width: 576px) {
+    .grid-sizer,
+    .grid-item {
+      width: calc(50% - 5px);
+    }
   }
 
   h2.category {

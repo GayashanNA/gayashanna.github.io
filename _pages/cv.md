@@ -1,8 +1,8 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
+description: Data engineer working on Australian energy market data.
 nav: true
 nav_order: 1
-cv_pdf: Resume_2023_Gayashan_Amarasinghe.pdf
 ---

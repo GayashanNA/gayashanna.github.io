@@ -30,7 +30,7 @@ Skills:
 * Energy market domain: `AEMO NEM market data (MMS), MSATS, PDR, NEM constraints`
 * Languages and data: `Python, SQL, PySpark, Java, C++, Bash, Apache Spark, pandas, NoSQL`
 * Platforms and tooling: `Databricks, Delta Lake, Azure Data Factory, Databricks Workflows`
-* Automation and AI: `ETL and pipeline automation, AI-assisted development (Claude Code, Databricks Genie)`
+* Automation and AI: `ELT/ETL pipeline automation, AI-assisted development (Claude Code, Databricks Genie)`
 * Ways of working: `Data migration and integration, microservices, RESTful APIs, Agile/Scrum, TDD`
 
 Away from the keyboard I ride bikes (road, gravel, and cross country) and read science fiction and biographies.

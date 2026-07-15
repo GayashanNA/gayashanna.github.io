@@ -2,7 +2,7 @@
 layout: page
 title: MCQ Autograder
 description: OMR-based autograding for paper MCQ exams, saving around LKR 1M a year.
-img: assets/img/projects/mcq/template.jpg
+img: assets/img/projects/mcq/card.jpg
 importance: 2
 category: open source
 github: https://github.com/CSE-UoM/MCQAutoGrader

@@ -14,6 +14,25 @@
     - name: Languages
       value: English, Sinhala
 
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Energy market domain
+      items:
+        - AEMO NEM market data (MMS), MSATS, and PDR. NEM constraints and constraint binding.
+    - title: Languages and data
+      items:
+        - Python, SQL, PySpark, Java, C++, Bash. Apache Spark, pandas, NoSQL.
+    - title: Platforms and tooling
+      items:
+        - Databricks, Delta Lake, Azure Data Factory, Databricks Workflows.
+    - title: Automation and AI
+      items:
+        - ELT/ETL pipeline automation. AI-assisted development (Claude Code, Databricks Genie), and a habit of tracking the AI and tooling trends worth adopting to speed up delivery.
+    - title: Ways of working
+      items:
+        - Data migration and integration, microservices, RESTful APIs, Agile/Scrum, TDD, and cross-functional collaboration with product and engineering.
+
 - title: Experience
   type: time_table
   contents:
@@ -109,25 +128,6 @@
         - title: Tech stack
           contents:
             - C++
-
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Energy market domain
-      items:
-        - AEMO NEM market data (MMS), MSATS, and PDR. NEM constraints and constraint binding.
-    - title: Languages and data
-      items:
-        - Python, SQL, PySpark, Java, C++, Bash. Apache Spark, pandas, NoSQL.
-    - title: Platforms and tooling
-      items:
-        - Databricks, Delta Lake, Azure Data Factory, Databricks Workflows.
-    - title: Automation and AI
-      items:
-        - ETL and pipeline automation. AI-assisted development (Claude Code, Databricks Genie), and a habit of tracking the AI and tooling trends worth adopting to speed up delivery.
-    - title: Ways of working
-      items:
-        - Data migration and integration, microservices, RESTful APIs, Agile/Scrum, TDD, and cross-functional collaboration with product and engineering.
 
 - title: Selected Projects
   type: time_table

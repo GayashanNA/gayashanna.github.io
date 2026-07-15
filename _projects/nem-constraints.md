@@ -7,7 +7,9 @@ importance: 1
 category: Energy
 ---
 
-A personal project that models network and FCAS constraints in Australia's National Electricity Market. It tracks which constraint equations exist, what state each one is in, and which are about to bind. It runs live at <a href="https://nem.amrsnghe.org">nem.amrsnghe.org</a> and refreshes every dispatch interval.
+**Live at <a href="https://nem.amrsnghe.org">nem.amrsnghe.org</a>**, refreshing every dispatch interval.
+
+A personal project that models network and FCAS constraints in Australia's National Electricity Market. It tracks which constraint equations exist, what state each one is in, and which are about to bind.
 
 Constraints decide what generators are allowed to dispatch, and what that dispatch is worth. So knowing which constraint is about to bind, and what it is likely to cost, is useful. AEMO publishes all the data needed to work this out, but not in a form that answers the question directly. That gap is what the project fills.
 

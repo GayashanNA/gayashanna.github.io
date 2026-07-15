@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am the Data Technical Lead at an Australian gentailer, an energy retailer and generator, and a data engineer at the core. I have spent three years there building and running the data platform. The work runs from ingestion of raw market data through to the reporting and forecasting that trading, finance, and executive stakeholders depend on.
 
-I lead a small team, a senior energy analyst and a data engineer, and I set the pipeline design and data modelling patterns we build against. Most of my time still goes into designing and building pipelines on Databricks and Delta Lake, and I stay close to the code. I am the in-house subject matter expert for AEMO market data (MMS), MSATS, and PDR, and I handled our migration off SQL Server.
+I lead a small team and set the pipeline design and data modelling patterns we build against. Most of my time still goes into designing and building pipelines on Databricks and Delta Lake, and I stay close to the code. I am the in-house subject matter expert for AEMO market data (MMS), MSATS, and PDR, and I handled our migration off SQL Server.
 
 I came to this from a PhD in distributed systems at the University of Melbourne, and before that more than half a decade lecturing at the University of Moratuwa in Sri Lanka. I started out as a Java engineer at WSO2 working on the Carbon Kernel. The teaching years left me comfortable explaining complex, regulated data to technical teams and senior decision makers alike.
 

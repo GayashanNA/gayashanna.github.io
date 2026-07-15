@@ -101,12 +101,13 @@ contact_note: >
   Email is the surest way to reach me; LinkedIn works too.
 
 # Goodreads bookshelf widget on the about page (_includes/goodreads.html).
-# The widget renders whatever is on `shelf`; if that shelf is empty it returns an
-# empty container and only the "My books on Goodreads" link shows. As of 2026-07-15
-# the currently-reading shelf has 0 books, read has 57, to-read has 100.
+# The widget renders whatever is on `shelf`. If that shelf is empty, Goodreads
+# returns an empty container and the section shows only the fallback link, so the
+# shelf below must be kept stocked on goodreads.com for this to display anything.
+# Shelf sizes as of 2026-07-15: currently-reading 0, read 57, to-read 100.
 goodreads:
   user_id: "59966651"
-  shelf: read
+  shelf: currently-reading
   num_books: 10
   widget_id: "1682828490"
 

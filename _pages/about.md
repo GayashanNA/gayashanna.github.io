@@ -8,14 +8,13 @@ profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Echuca, VIC, Australia</p>
+  address: # location lives on the CV instead; omitting it here avoids a second copy to keep in sync
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 goodreads: true # bookshelf widget; shelf is set in _config.yml
-goodreads_heading: recently read
+goodreads_heading: Currently Reading
 social: false  # includes social icons at the bottom of the page
 ---
 

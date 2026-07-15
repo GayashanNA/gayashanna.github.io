@@ -4,15 +4,14 @@ title: MCQ Autograder
 description: OMR-based autograding for paper MCQ exams, saving around LKR 1M a year.
 img: assets/img/projects/mcq/card.jpg
 importance: 2
-category: open source
+category: Open Source
 github: https://github.com/CSE-UoM/MCQAutoGrader
 ---
 
-MCQAutoGrader implements an Optical Mark Recognition based autograding tool for paper based MCQ questions. The project is mainly designed to be used for CS1033 Programming Fundamentals course offered by the Dept. of Computer Science and Engineering at University of Moratuwa, Sri Lanka.
+MCQAutoGrader is an Optical Mark Recognition tool for grading paper based multiple choice exams. It was written for the CS1033 Programming Fundamentals course at the Department of Computer Science and Engineering, University of Moratuwa, Sri Lanka, where classes run to more than a thousand students and marking them by hand is a serious cost. It was adopted into the department's grading workflow and is estimated to save around LKR 1M a year in manual effort.
 
-It was adopted into the department's grading workflow, where it is estimated to save around LKR 1M a year in manual marking effort — the courses it supports run to classes of 1000+ students.
+It takes a set of scanned answer scripts, a marking scheme, and the bubble sheet template, then reads the marks and grades the scripts. The <a href="https://github.com/CSE-UoM/MCQAutoGrader">project page</a> has the setup instructions.
 
-MCQAutoGrader is designed to take a list of scanned answer scripts (bubble sheets) as inputs along with the marking scheme and the template of the bubble sheet. Visit <a href="https://github.com/CSE-UoM/MCQAutoGrader">the project page</a> for further details.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" >
         {% include figure.html path="assets/img/projects/mcq/template.jpg" title="Template" class="img-fluid rounded z-depth-1" style="width: 50%;height: auto;" %}

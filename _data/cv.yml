@@ -36,9 +36,9 @@
         - Set the pipeline design, data-modelling, and orchestration patterns the rest of the team builds against, and work directly with other engineers and analysts to get them applying those patterns independently.
         - title: Selected work
           contents:
-            - Virtual Tolling Agreement settlement system &mdash; one of the first settlement systems for a Virtual BESS, validating trader-submitted nominations, computing state of charge across dispatch intervals, and settling dispatched energy against capacity, cycle-count, and charge/discharge constraints. In production.
-            - Enterprise data platform migration from SQL Server to Databricks &mdash; core data workloads rebuilt as bronze, silver, and gold layers on Delta Lake, orchestrated through Azure Data Factory and Databricks Workflows.
-            - Earnings model and report &mdash; replaced a SQL Server process that took close to six hours and was a major reporting blocker; the new solution parallelises the computation across notebooks and runs in about 45 minutes, making frequent runs practical.
+            - "Virtual Tolling Agreement settlement system: one of the first settlement systems for a Virtual BESS. Validates trader-submitted nominations, computes state of charge across dispatch intervals, and settles dispatched energy against capacity, cycle-count, and charge/discharge constraints. In production."
+            - "Enterprise data platform migration from SQL Server to Databricks: core data workloads rebuilt as bronze, silver, and gold layers on Delta Lake, orchestrated through Azure Data Factory and Databricks Workflows."
+            - "Earnings model and report: replaced a SQL Server process that took close to six hours and was a major reporting blocker. The new solution parallelises the computation across notebooks and runs in about 45 minutes, which makes frequent runs practical."
         - title: Tech stack
           contents:
             - Azure Data Factory, Databricks, Delta Lake, PySpark, Python, SQL, Databricks Workflows

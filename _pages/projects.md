@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: Things I've built — energy market data, and some open source.
+description: Things I have built, across energy market data and open source.
 nav: true
 nav_order: 2
-display_categories: [energy, open source]
+display_categories: [Energy, Open Source]
 horizontal: false
 ---
 

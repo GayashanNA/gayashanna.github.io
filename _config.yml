@@ -8,8 +8,8 @@ middle_name:
 last_name: Amarasinghe
 email: gayashan.amarasinghe@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Gayashan Amarasinghe — data engineer working on Australian energy market data.
-  Data Technical Lead at ZEN Energy; PhD in distributed systems.
+  Gayashan Amarasinghe, a data engineer working on Australian energy market data.
+  Data Technical Lead at ZEN Energy, with a PhD in distributed systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -97,9 +97,6 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
   Email is the surest way to reach me; LinkedIn works too.
-
-# Goodreads "currently reading" widget on the about page (see _includes/goodreads.html)
-goodreads_user_id: "59966651"
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

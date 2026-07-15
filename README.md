@@ -1,6 +1,6 @@
 # gn.amrsnghe.org
 
-Personal website of Gayashan Amarasinghe — [gn.amrsnghe.org](https://gn.amrsnghe.org).
+Personal website of Gayashan Amarasinghe, live at [gn.amrsnghe.org](https://gn.amrsnghe.org).
 
 Built with [Jekyll](https://jekyllrb.com/) on the [al-folio](https://github.com/alshedivat/al-folio) theme (MIT).
 

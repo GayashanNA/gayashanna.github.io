@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Peer-reviewed papers and my PhD thesis, newest first.
 nav: true
 nav_order: 3

@@ -48,8 +48,7 @@ layout: default
 
           <!-- Goodreads -->
           {% if page.goodreads -%}
-            <h2>{{ page.goodreads_heading | default: 'Bookshelf' }}</h2>
-            {%- include goodreads.html %}
+            {%- include goodreads.html heading=page.goodreads_heading %}
           {%- endif %}
 
           <!-- Social -->

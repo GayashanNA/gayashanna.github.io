@@ -2,6 +2,7 @@
 {%- assign gr_user = site.goodreads.user_id -%}
 {%- assign gr_shelf = site.goodreads.shelf | default: 'currently-reading' -%}
 {%- assign gr_widget = site.goodreads.widget_id | default: '1682828490' -%}
+{%- assign gr_num = site.goodreads.num_books | default: 10 -%}
 <style type="text/css" media="screen">
   .gr_grid_container {
     display: flex;
@@ -21,14 +22,24 @@
     width: 100%;
   }
 </style>
-<div id="gr_grid_widget_{{ gr_widget }}">
-  <!-- Replaced by the script below once it loads. If the shelf is empty, Goodreads
-       returns this container with no books in it, so keep a link here regardless. -->
-  <div class="gr_grid_container">
-    <a class="gr_grid_branding" rel="nofollow"
-      href="https://www.goodreads.com/review/list/{{ gr_user }}?shelf={{ gr_shelf }}">My books on Goodreads &raquo;</a>
-  </div>
-</div>
+<!-- Hidden until the script below confirms at least one cover rendered. Goodreads
+     returns an empty container for an empty shelf, so without this the heading
+     would sit above blank space whenever nothing is on the shelf. -->
+<section id="gr_section_{{ gr_widget }}" hidden>
+  <h2>{{ include.heading | default: 'Bookshelf' }}</h2>
+  <div id="gr_grid_widget_{{ gr_widget }}"></div>
+</section>
 <script
-  src="https://www.goodreads.com/review/grid_widget/{{ gr_user }}.{{ gr_shelf }}?cover_size=medium&hide_link=&hide_title=true&num_books={{ site.goodreads.num_books | default: 10 }}&order=d&shelf={{ gr_shelf }}&sort=date_added&widget_id={{ gr_widget }}"
+  src="https://www.goodreads.com/review/grid_widget/{{ gr_user }}.{{ gr_shelf }}?cover_size=medium&hide_link=&hide_title=true&num_books={{ gr_num }}&order=d&shelf={{ gr_shelf }}&sort=date_added&widget_id={{ gr_widget }}"
   type="text/javascript" charset="utf-8"></script>
+<script>
+  (function () {
+    // Runs after the Goodreads script above, which is render-blocking. If that script
+    // was blocked, failed, or returned no books, the section simply stays hidden.
+    var widget = document.getElementById('gr_grid_widget_{{ gr_widget }}');
+    var section = document.getElementById('gr_section_{{ gr_widget }}');
+    if (widget && section && widget.querySelector('.gr_grid_book_container')) {
+      section.hidden = false;
+    }
+  })();
+</script>

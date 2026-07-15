@@ -62,7 +62,7 @@ ruby -ryaml -e 'YAML.load_file("_data/cv.yml")'
 
 **Custom plugins** in `_plugins/` (these run because CI builds the site, not GitHub's restricted Pages builder): `publication-years.rb`, `details.rb` (a `{% details %}` block tag), and `hideCustomBibtex.rb`.
 
-**Landing page.** `_layouts/about.html` toggles on `_pages/about.md` front matter: `profile`, `selected_papers`, `goodreads`, `social`. The Goodreads widget lives in `_includes/goodreads.html` with the user id in `_config.yml` (`goodreads_user_id`) — keep it that way; it used to be hardcoded inline in the layout, which is the kind of fork divergence that breaks upstream merges.
+**Landing page.** `_layouts/about.html` toggles on `_pages/about.md` front matter: `profile`, `selected_papers`, `social`. All of these are deliberately off except `profile`: the page is meant to end after the interests line. `social` renders a second, much larger set of icons at the foot of the page duplicating the navbar ones (`enable_navbar_social`), so leave it off. Upstream's Goodreads block has been removed outright, since the shelf it read was empty and the section rendered a heading above nothing.
 
 **Styles** are SCSS in `_sass/`, compiled through `assets/css/main.scss`. `_themes.scss` + `assets/js/theme.js` do light/dark via CSS custom properties — new colors belong in `_variables.scss`/`_themes.scss`, not hardcoded in a component. `_distill.scss` is dead but still imported; harmless.
 

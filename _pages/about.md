@@ -18,7 +18,7 @@ goodreads_heading: Currently Reading
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am the Data Technical Lead at an Australian gentailer, an energy retailer and generator, and a data engineer at the core. I have spent three years there building and running the data platform. The work runs from ingestion of raw market data through to the reporting and forecasting that trading, finance, and executive stakeholders depend on.
+I am a Data Technical Lead at an Australian gentailer, an energy retailer and generator, and a data engineer at the core. I have spent three years there building and running the data platform. The work runs from ingestion of raw market data through to the reporting and forecasting that trading, finance, and executive stakeholders depend on.
 
 I lead a small team and set the pipeline design and data modelling patterns we build against. Most of my time still goes into designing and building pipelines on Databricks and Delta Lake, and I stay close to the code. I am the in-house subject matter expert for AEMO market data (MMS), MSATS, and PDR, and I handled our migration off SQL Server.
 

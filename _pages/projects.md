@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of my noteworthy projects.
+description: Things I've built — energy market data, and some open source.
 nav: true
 nav_order: 2
-display_categories: [work, personal]
+display_categories: [energy, open source]
 horizontal: false
 ---
 

@@ -3,103 +3,157 @@
   contents:
     - name: Full Name
       value: Gayashan Niroshana Amarasinghe
-    - name: Languages
-      value: English, Sinhala
+    - name: Current Role
+      value: Data Technical Lead, <a href="https://www.zenenergy.com.au/">ZEN Energy</a>
     - name: Location
-      value: Echuca, VIC, Australia.
+      value: Echuca, VIC, Australia
     - name: Contact
       value: gayashan.amarasinghe [at] gmail [dot] com
+    - name: Links
+      value: <a href="https://www.linkedin.com/in/gayashanna">LinkedIn</a> &middot; <a href="https://github.com/GayashanNA">GitHub</a> &middot; <a href="https://scholar.google.com/citations?user=9Kd-M-oAAAAJ">Google Scholar</a>
+    - name: Languages
+      value: English, Sinhala
 
 - title: Experience
   type: time_table
   contents:
-    - title: Software Engineer
-      institution: RMIT University, Melbourne, Australia
-      year: Jan 2023 - Present
+    - title: Data Technical Lead
+      institution: ZEN Energy, Australia
+      year: May 2023 - Present
       description:
-        - Lead the BIPV Enabler software development team
-        - Hands on with the design, development, and deployment of BIPV Enabler
+        - Took on growing ownership of the data platform across three years and three roles, moving from building pipelines to designing and running the platform end to end.
+        - title: Role progression
+          contents:
+            - Data Technical Lead (Mar 2026 - Present)
+            - Senior Data Engineer (Mar 2025 - Mar 2026)
+            - Data Engineer (May 2023 - Mar 2025)
+        - Serve as the in-house subject matter expert for AEMO market data (MMS) and for managing robust data delivery and retrieval through the PDR application and the MSATS system, including the reference-data and mapping conventions that keep records consistent.
+        - Handled the migration of the enterprise data platform from SQL Server to Databricks, and productionised end-to-end pipelines covering ingestion, transformation, validation, and reporting across forecasting, trading, and regulatory workflows.
+        - Redesigned the high-volume 5-minute market and meter data models that downstream processes depend on, improving performance and reliability of the pipelines feeding them.
+        - Built pipelines that ingest and reconcile data from external and third-party sources (energy market systems, CRM, billing, weather, and market-curve providers) into a single analytics layer, handling varied and often messy source structures.
+        - Re-architected the platform's backup and recovery framework to be modular and configurable, driven by data criticality rather than a fixed schedule.
+        - Built AI-assisted development into the day-to-day pipeline workflow (Claude Code and Databricks Genie), cutting the manual effort in building and testing pipelines, and applied that same approach to sharpen testing, code review, and data quality practice.
+        - Set the pipeline design, data-modelling, and orchestration patterns the rest of the team builds against, and work directly with other engineers and analysts to get them applying those patterns independently.
+        - title: Selected work
+          contents:
+            - Virtual Tolling Agreement settlement system &mdash; one of the first settlement systems for a Virtual BESS, validating trader-submitted nominations, computing state of charge across dispatch intervals, and settling dispatched energy against capacity, cycle-count, and charge/discharge constraints. In production.
+            - Enterprise data platform migration from SQL Server to Databricks &mdash; core data workloads rebuilt as bronze, silver, and gold layers on Delta Lake, orchestrated through Azure Data Factory and Databricks Workflows.
+            - Earnings model and report &mdash; replaced a SQL Server process that took close to six hours and was a major reporting blocker; the new solution parallelises the computation across notebooks and runs in about 45 minutes, making frequent runs practical.
         - title: Tech stack
           contents:
-            - Python, Flask, FreeCAD Python workbenches, AWS Elastic Beanstalk, CodePipeline, API Gateway, Cognito, Lambda, CloudFormation
-    
+            - Azure Data Factory, Databricks, Delta Lake, PySpark, Python, SQL, Databricks Workflows
+
     - title: Senior Lecturer
       institution: University of Moratuwa, Sri Lanka
       year: Jun 2021 - Jan 2023
       description:
-        - title: Undergraduate Teaching
+        - Taught and supervised across software engineering and distributed systems, mentoring students and junior staff and building a habit of explaining technical concepts to non-specialist audiences.
+        - title: Undergraduate teaching
           contents:
             - Distributed Systems, Programming Fundamentals, Database Systems, Software Engineering, Software Architecture and Design
-        - title: Postgraduate Teaching
+        - title: Postgraduate teaching
           contents:
             - System and Network Design, Cloud Technologies and Systems, Software Development on Cloud
-        - Acted as an external software/data engineering consultant for multiple public sector projects
-        - Key member of establishing the research collaboration between CERN (The European Organization for Nuclear Research) and the Department of Computer Science and Engineering, University of Moratuwa
-        - Initiated and led the project on enabling automated grading methods to expand the teaching support at the univeristy
-          - directly helped to deliver programming modules to large classes (1000+) and also helped to implement the open.uom.lk platform
-        - Supervised multiple undergrduate and postgraduate projects
+        - title: Automated grading
+          contents:
+            - Initiated and led the project on enabling automated grading methods to expand teaching support at the university.
+            - Directly helped deliver programming modules to large classes (1000+ students) and helped implement the <a href="https://open.uom.lk">open.uom.lk</a> platform.
+        - Acted as an external software and data engineering consultant for multiple public sector projects.
+        - Key member of establishing the research collaboration between CERN (The European Organization for Nuclear Research) and the Department of Computer Science and Engineering, University of Moratuwa.
+        - Supervised multiple undergraduate and postgraduate projects.
 
     - title: Research Fellow
       institution: RMIT University, Melbourne, Australia
       year: Jun 2020 - Dec 2020
       description:
-        - Designed the software architecture and completed initial implementation of BIPV Enabler
+        - Designed the software architecture and completed the initial implementation of BIPV Enabler, a building-integrated photovoltaic modelling tool for the construction industry.
 
     - title: CS Research Officer
       institution: RMIT University, Melbourne, Australia
       year: Oct 2019 - Dec 2019
       description:
-        - Implemented a blockchain based proof of concept solution based on the Hyperledger Fabric framework for managing the process of cladding procurement in a construction project
+        - Implemented a blockchain based proof of concept, on the Hyperledger Fabric framework, for managing the process of cladding procurement in a construction project.
 
     - title: Lecturer (Probationary)
       institution: University of Moratuwa, Sri Lanka
       year: Jun 2015 - Jun 2021
       description:
-        - title: Undergraduate Teaching
+        - title: Undergraduate teaching
           contents:
-            - Programming Fundamentals, Database Systems, Software engineering
-        - Acted as an external software/data engineering consultant for multiple public sector projects
-        - Key member of establishing the research collaboration between CERN (The European Organization for Nuclear Research) and the Department of Computer Science and Engineering, University of Moratuwa
-        - Initiated and led the project on enabling Virtual Programming Lab as an automated grading methods to expand the teaching support at the univeristy
-          - directly helped to deliver programming modules to large classes (1000+)
-        - Supervised multiple undergrduate projects
-        - <i>Was on paid study leave from 2017 to 2020 to complete my doctoral studies</i>
+            - Programming Fundamentals, Database Systems, Software Engineering
+        - title: Automated grading
+          contents:
+            - Initiated and led the project on adopting Virtual Programming Lab as an automated grading method to expand teaching support at the university.
+            - Directly helped deliver programming modules to large classes (1000+ students).
+        - Acted as an external software and data engineering consultant for multiple public sector projects.
+        - Key member of establishing the research collaboration between CERN (The European Organization for Nuclear Research) and the Department of Computer Science and Engineering, University of Moratuwa.
+        - Supervised multiple undergraduate projects.
+        - <i>Was on paid study leave from 2017 to 2020 to complete my doctoral studies.</i>
 
     - title: Software Engineer
-      institution: WSO2 Inc, Sri Lanka
+      institution: WSO2 Inc., Sri Lanka
       year: Mar 2014 - May 2015
       description:
-        - Designed, developed, and tested solutions using Java as a software engineer for WSO2 Carbon Kernel (core platform for the WSO2 ESB, API Manager
-        - Provided deployment and software support for customers both on-site and off-site
+        - Designed, built, and tested Java components for the WSO2 Carbon Kernel, the core platform behind the WSO2 ESB and API Manager, including a Log4j 2 upgrade and distributed-caching optimisations.
+        - Provided deployment and software support for customers, both on-site and off-site.
         - title: Tech stack
           contents:
-            - Java, OSGi, SOA, maven, Log4j, hazelcast
+            - Java, OSGi, SOA, Maven, Log4j, Hazelcast
 
-    - title: Trainee Software Engineer
+    - title: Intern Software Engineer
       institution: KISTERS AG, Aachen, Germany
       year: Jun 2012 - Dec 2012
       description:
-        - Implemented  as a trainee software engineer a MOD4 protocol driver in C++ for a Wide Area Sensor Network that monitors the air quality
+        - Implemented a MOD4 protocol driver in C++ for a wide-area sensor network monitoring air quality. Part of the IAESTE student exchange program.
         - title: Tech stack
           contents:
             - C++
 
-- title: Open Source Projects
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Energy market domain
+      items:
+        - AEMO NEM market data (MMS), MSATS, and PDR. NEM constraints and constraint binding.
+    - title: Languages and data
+      items:
+        - Python, SQL, PySpark, Java, C++, Bash. Apache Spark, pandas, NoSQL.
+    - title: Platforms and tooling
+      items:
+        - Databricks, Delta Lake, Azure Data Factory, Databricks Workflows.
+    - title: Automation and AI
+      items:
+        - ETL and pipeline automation. AI-assisted development (Claude Code, Databricks Genie), and a habit of tracking the AI and tooling trends worth adopting to speed up delivery.
+    - title: Ways of working
+      items:
+        - Data migration and integration, microservices, RESTful APIs, Agile/Scrum, TDD, and cross-functional collaboration with product and engineering.
+
+- title: Selected Projects
   type: time_table
   contents:
-    - title: <a href="https://sedgecloud.github.io/ECSNeTpp/">ECSNeT++</a>
-      year: 2017-2021
-      description: A simulation toolkit for simulating the execution of distributed stream processing applications on edge and cloud computing environments.
-    - title: <a href="https://github.com/CSE-UoM/MCQAutoGrader">MCQAutoGrader</a>
-      year: 2021-now
-      description: A tool used for automated grading of paper based MCQ examinations.
+    - title: <a href="/projects/nem-constraints/">NEM Constraint Watch</a>
+      year: 2026 - now
+      description:
+        - Models AEMO NEM network and FCAS constraints and their binding, evaluating constraint equations against dispatch conditions to determine which constraints bind and when. Live at <a href="https://nem.amrsnghe.org">nem.amrsnghe.org</a>.
+    - title: <a href="/projects/mcq-autograder/">MCQAutoGrader</a>
+      year: 2021 - now
+      description:
+        - Automated grading for paper-based MCQ examinations, adopted into the grading workflow at the Department of Computer Science and Engineering, University of Moratuwa, and estimated to save around LKR 1M a year in manual effort.
+    - title: <a href="/projects/ecsnetpp/">ECSNeT++</a>
+      year: 2017 - 2021
+      description:
+        - Open-source simulation toolkit for distributed stream-processing applications on edge and cloud computing environments, produced as part of my doctoral research.
+    - title: <a href="/projects/bipv-enabler/">BIPV Enabler</a>
+      year: 2020 - 2023
+      description:
+        - Building-integrated photovoltaic modelling software for the construction industry, built at RMIT University.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: The University of Melbroune, Melbourne, Australia
-      year: 2021
+    - title: PhD, Computer Science
+      institution: The University of Melbourne, Melbourne, Australia
+      year: 2017 - 2021
       description:
         - title: Thesis
           contents:
@@ -109,43 +163,42 @@
             - Designed and developed novel algorithms to optimise the deployment of data stream processing ETL pipelines and low latency applications on cloud and edge computing infrastructure, using constraint satisfaction solvers, integer linear programming, and Markov models.
     - title: B.Sc. Eng. (Hons.), Computer Science and Engineering
       institution: University of Moratuwa, Sri Lanka
-      year: 2014
+      year: 2009 - 2014
       description:
-        - First Class Honours with GPA of 3.94/4.2, Class Rank 3/100
+        - First Class Honours, with a GPA of 3.94/4.2 and a class rank of 3/100.
+
+- title: Certifications
+  type: time_table
+  contents:
+    - year: 2026
+      description:
+        - <a href="https://credentials.databricks.com/bccd28e5-2244-4459-b200-e25be15f7749#acc.BbOryIUj">Azure Databricks Platform Architect</a>, Databricks.
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2022
-      items: 
-        - Excellence Award, awarded first position at the 21st European Conference on e-Learning for the \url{open.uom.lk} e-learning and knowledge sharing platform in which I was a founding member.
+      description:
+        - Excellence Award, awarded first position at the 21st European Conference on e-Learning for the <a href="https://open.uom.lk">open.uom.lk</a> e-learning and knowledge sharing platform, of which I was a founding member.
     - year: 2017
-      items: 
-        - Elite PhD Scholars' Programme, recipient of the Elite PhD Scholarship which is a joint PhD scholarship scheme awarded by The University of Melbourne and the University Grants Commission of Sri Lanka.
+      description:
+        - Elite PhD Scholars' Programme, a joint PhD scholarship scheme awarded by The University of Melbourne and the University Grants Commission of Sri Lanka.
     - year: 2013
-      items: 
-        - Full Scholarship, to participate in 3rd South Asian Workshop on Research Frontiers in Computing (2013) at the School of Computing, National University of Singapore, Singapore.
-        - The Migara Ratnatunga Trust Award, IESL, awarded for excellent performance in the Undergraduate Internship Program by Institution of Engineers, Sri Lanka.
-    - year: 2009-2014
-      items:
-        - Dean's List Distinction, awarded for achieving a semester GPA of 3.8 or above (Semesters 1,2,3,4,7,8).
+      description:
+        - Full Scholarship, to participate in the 3rd South Asian Workshop on Research Frontiers in Computing at the School of Computing, National University of Singapore.
+        - The Migara Ratnatunga Trust Award, awarded by the Institution of Engineers, Sri Lanka, for excellent performance in the Undergraduate Internship Program.
     - year: 2011
-      items:
-        - Sri Lankan Finalist - Microsoft Imagine Cup, in the ``Software Design" category.
+      description:
+        - Sri Lankan Finalist, Microsoft Imagine Cup, in the "Software Design" category.
+    - year: 2009 - 2014
+      description:
+        - Dean's List Distinction, awarded for achieving a semester GPA of 3.8 or above (Semesters 1, 2, 3, 4, 7, and 8).
     - year: 2008
-      items:
-        - The Dr. G. C. L. De Silva Memorial Prize, Royal College, Colombo, awarded for achieving distinctions in all main subjects in G.C.E. A/L and G.C.E. O/L examinations.
-- title: Certifications
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - <a href=https://www.datacamp.com/statement-of-accomplishment/course/495b309c0bb7d8c86e2864c8fd62c694329d3967>Time Series analysis in Python by DataCamp</a>
-- title: Other Interests
+      description:
+        - The Dr. G. C. L. De Silva Memorial Prize, Royal College, Colombo, awarded for achieving distinctions in all main subjects at the G.C.E. A/L and G.C.E. O/L examinations.
+
+- title: Interests
   type: list
   contents:
-    - Cycling
-    - Running
-    - Reading/listening to books (sci-fi and biographies)
-    - Listening to podcasts
-    - Formula 1
+    - Cycling (road, gravel, and cross-country)
+    - Reading (science fiction and biographies)

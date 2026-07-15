@@ -1,0 +1,24 @@
+<!-- goodreads.html -->
+{%- assign gr_user = site.goodreads_user_id -%}
+<style type="text/css" media="screen">
+  .gr_grid_book_container {
+    float: left;
+    width: 98px;
+    height: 160px;
+    padding: 0px 0px;
+    overflow: hidden;
+  }
+</style>
+<div id="gr_grid_widget_{{ include.widget_id | default: '1682828490' }}">
+  <!-- Static fallback in case JS is disabled; the script below overrides it when it loads. -->
+  <div class="gr_grid_container">
+    <a class="gr_grid_branding"
+      style="font-size: .9em; text-decoration: none; float: right; clear: both" rel="nofollow"
+      href="https://www.goodreads.com/user/show/{{ gr_user }}">My books on Goodreads &raquo;</a>
+    <noscript><br />Book reviews and ratings on <a rel="nofollow"
+        href="https://www.goodreads.com/user/show/{{ gr_user }}">Goodreads</a>.</noscript>
+  </div>
+</div>
+<script
+  src="https://www.goodreads.com/review/grid_widget/{{ gr_user }}.currently-reading?cover_size=medium&hide_link=&hide_title=true&num_books=20&order=d&shelf=currently-reading&sort=date_added&widget_id={{ include.widget_id | default: '1682828490' }}"
+  type="text/javascript" charset="utf-8"></script>

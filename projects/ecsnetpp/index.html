@@ -10,24 +10,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Projects | Gayashan Amarasinghe</title>
+    <title>ECSNeT++ | Gayashan Amarasinghe</title>
     <meta name="author" content="Gayashan  Amarasinghe">
-    <meta name="description" content="Things I have built, across energy market data and open source.">
+    <meta name="description" content="A simulator for distributed stream processing on edge and cloud environments.">
     <meta name="keywords" content="gayashan amarasinghe, data engineer, AEMO, NEM, National Electricity Market, MMS, MSATS, Databricks, Delta Lake, PySpark, Azure Data Factory, distributed systems, stream processing">
 
     <!-- OpenGraph -->
     <meta property="og:site_name" content="Gayashan Amarasinghe">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Gayashan Amarasinghe | Projects">
-    <meta property="og:url" content="https://gn.amrsnghe.org/projects/">
-    <meta property="og:description" content="Things I have built, across energy market data and open source.">
+    <meta property="og:title" content="Gayashan Amarasinghe | ECSNeT++">
+    <meta property="og:url" content="https://gn.amrsnghe.org/projects/ecsnetpp/">
+    <meta property="og:description" content="A simulator for distributed stream processing on edge and cloud environments.">
     <meta property="og:image" content="https://gn.amrsnghe.org/assets/img/prof_pic.jpeg">
     <meta property="og:locale" content="en">
 
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Projects">
-    <meta name="twitter:description" content="Things I have built, across energy market data and open source.">
+    <meta name="twitter:title" content="ECSNeT++">
+    <meta name="twitter:description" content="A simulator for distributed stream processing on edge and cloud environments.">
     <meta name="twitter:image" content="https://gn.amrsnghe.org/assets/img/prof_pic.jpeg">
     
 
@@ -39,10 +39,10 @@
           "@type": "Person",
           "name": "Gayashan  Amarasinghe"
         },
-        "url": "https://gn.amrsnghe.org/projects/",
+        "url": "https://gn.amrsnghe.org/projects/ecsnetpp/",
         "@type": "WebSite",
-        "description": "Things I have built, across energy market data and open source.",
-        "headline": "Projects",
+        "description": "A simulator for distributed stream processing on edge and cloud environments.",
+        "headline": "ECSNeT++",
         "sameAs": ["https://scholar.google.com/citations?user=9Kd-M-oAAAAJ", "https://github.com/GayashanNA", "https://www.linkedin.com/in/gayashanna"],
         "name": "Gayashan  Amarasinghe",
         "@context": "https://schema.org"
@@ -69,7 +69,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://gn.amrsnghe.org/projects/">
+    <link rel="canonical" href="https://gn.amrsnghe.org/projects/ecsnetpp/">
 
     <!-- Dark Mode -->
     
@@ -112,8 +112,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/cv/">CV</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="/projects/">Projects<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">Projects</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">Publications</a>
@@ -147,125 +147,18 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Projects</h1>
-            <p class="post-description">Things I have built, across energy market data and open source.</p>
+            <h1 class="post-title">ECSNeT++</h1>
+            <p class="post-description">A simulator for distributed stream processing on edge and cloud environments.</p>
           </header>
 
           <article>
-            <!-- pages/projects.md -->
-<div class="projects">
-  <!-- Display categorized projects -->
-  <h2 class="category">Energy</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/nem-constraints/">
-      <div class="card hoverable">
-<figure>
+            <p>ECSNeT++ is an open source simulation toolkit for modelling Distributed Stream Processing applications that run across edge and cloud computing environments. It came out of my doctoral research at the University of Melbourne, and is published in <em>Future Generation Computer Systems</em>. See the <a href="/publications/">publications</a> page for the paper.</p>
 
-  <picture>
-    
+<p>Evaluating stream processing on real edge infrastructure is expensive and slow. You need the devices, the network between them, and the patience to redeploy everything each time you want to try a different task placement. ECSNeT++ lets you ask those questions in simulation first. You define an application topology, configure a placement plan, and observe the processing delays, message sizes, and network behaviour that come out of it.</p>
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/nem/dashboard.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+<p>It is built on <a href="https://omnetpp.org/" rel="external nofollow noopener" target="_blank">OMNeT++</a> and the INET framework, so the networking is modelled properly rather than approximated, including wireless and LTE links between edge devices. Data sources, processing operators, and device characteristics are all configurable.</p>
 
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h3 class="card-title">NEM Constraint Watch</h3>
-          <p class="card-text">Modelling AEMO NEM constraints, and predicting which ones are about to bind.</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/bipv-enabler/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/bipvenabler/bipv1.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h3 class="card-title">BIPV Enabler</h3>
-          <p class="card-text">Building-integrated photovoltaic modelling software for the construction industry.</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-  <h2 class="category">Open Source</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/ecsnetpp/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h3 class="card-title">ECSNeT++</h3>
-          <p class="card-text">A simulator for distributed stream processing on edge and cloud environments.</p>
-          <div class="row ml-1 mr-1 p-0">
-<div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/sedgecloud/ECSNeTpp" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/mcq-autograder/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/mcq/card.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h3 class="card-title">MCQ Autograder</h3>
-          <p class="card-text">OMR-based autograding for paper MCQ exams, saving around LKR 1M a year.</p>
-          <div class="row ml-1 mr-1 p-0">
-<div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/CSE-UoM/MCQAutoGrader" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-</div>
+<p>The <a href="https://sedgecloud.github.io/ECSNeTpp/" rel="external nofollow noopener" target="_blank">documentation site</a> has the tutorial and API reference, and the source is on <a href="https://github.com/sedgecloud/ECSNeTpp" rel="external nofollow noopener" target="_blank">GitHub</a>.</p>
 
           </article>
 

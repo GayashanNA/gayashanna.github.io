@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gayashanna.github.io/sitemap.xml
+Sitemap: https://gn.amrsnghe.org/sitemap.xml

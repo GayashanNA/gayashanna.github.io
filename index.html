@@ -12,9 +12,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Gayashan Amarasinghe</title>
     <meta name="author" content="Gayashan  Amarasinghe">
-    <meta name="description" content="Gayashan's personal web page.
-">
-    <meta name="keywords" content="gayashan, gayashan.amarasinghe">
+    <meta name="description" content="Gayashan Amarasinghe, a data engineer working on Australian energy market data. Data Technical Lead at an Australian gentailer, with a PhD in distributed systems.">
+    <meta name="keywords" content="gayashan amarasinghe, data engineer, AEMO, NEM, National Electricity Market, MMS, MSATS, Databricks, Delta Lake, PySpark, Azure Data Factory, distributed systems, stream processing">
+
+    <!-- OpenGraph -->
+    <meta property="og:site_name" content="Gayashan Amarasinghe">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gayashan Amarasinghe | About">
+    <meta property="og:url" content="https://gn.amrsnghe.org/">
+    <meta property="og:description" content="Gayashan Amarasinghe, a data engineer working on Australian energy market data. Data Technical Lead at an Australian gentailer, with a PhD in distributed systems.">
+    <meta property="og:image" content="https://gn.amrsnghe.org/assets/img/prof_pic.jpeg">
+    <meta property="og:locale" content="en">
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="About">
+    <meta name="twitter:description" content="Gayashan Amarasinghe, a data engineer working on Australian energy market data. Data Technical Lead at an Australian gentailer, with a PhD in distributed systems.">
+    <meta name="twitter:image" content="https://gn.amrsnghe.org/assets/img/prof_pic.jpeg">
+    
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "author":
+        {
+          "@type": "Person",
+          "name": "Gayashan  Amarasinghe"
+        },
+        "url": "https://gn.amrsnghe.org/",
+        "@type": "WebSite",
+        "description": "Gayashan Amarasinghe, a data engineer working on Australian energy market data. Data Technical Lead at an Australian gentailer, with a PhD in distributed systems.",
+        "headline": "About",
+        "sameAs": ["https://scholar.google.com/citations?user=9Kd-M-oAAAAJ", "https://github.com/GayashanNA", "https://www.linkedin.com/in/gayashanna"],
+        "name": "Gayashan  Amarasinghe",
+        "@context": "https://schema.org"
+      }
+    </script>
 
 
     <!-- Bootstrap & MDB -->
@@ -24,7 +57,7 @@
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
@@ -36,7 +69,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://gayashanna.github.io/">
+    <link rel="canonical" href="https://gn.amrsnghe.org/">
 
     <!-- Dark Mode -->
     
@@ -63,7 +96,6 @@
             <a href="https://scholar.google.com/citations?user=9Kd-M-oAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
             <a href="https://github.com/GayashanNA" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/gayashanna" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             
 
           </div>
@@ -81,19 +113,19 @@
 
               <!-- About -->
               <li class="nav-item active">
-                <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">About<span class="sr-only">(current)</span></a>
               </li>
               
 
               <!-- Other pages -->
               <li class="nav-item ">
-                <a class="nav-link" href="/cv/">cv</a>
+                <a class="nav-link" href="/cv/">CV</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
+                <a class="nav-link" href="/projects/">Projects</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/publications/">publications</a>
+                <a class="nav-link" href="/publications/">Publications</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -126,7 +158,7 @@
           <h1 class="post-title">
            Gayashan Amarasinghe
           </h1>
-          <p class="desc"><i>ගයාෂාන් අමරසිංහ</i></p>
+          <p class="desc"><i>ගයාෂාන් අමරසිංහ</i> · Data Technical Lead at an Australian gentailer</p>
         </header>
 
         <article>
@@ -147,93 +179,76 @@
           </div>
 
           <div class="clearfix">
-            <p>I am a computer scientist and a software engineer who works as the lead software engineer for the <a href="https://www.rmit.edu.au/about/schools-colleges/property-construction-and-project-management/research/research-centres-and-groups/solar-energy-application-laboratory/projects/bipv-enabler" rel="external nofollow noopener" target="_blank">BIPV Enabler</a> project at RMIT University. Since 2020, I have contributed to the project’s success by crafting the overall software architecture and engaging in hands-on development.</p>
+            <p>I am the Data Technical Lead at an Australian gentailer, an energy retailer and generator, and a data engineer at the core. I have spent three years there building and running the data platform. The work runs from ingestion of raw market data through to the reporting and forecasting that trading, finance, and executive stakeholders depend on.</p>
 
-<p>Prior to my current position, I held a senior lecturer role at the Department of Computer Science and Engineering at the University of Moratuwa in Sri Lanka, where I researched and taught about software engineering, data engineering, and distributed systems. I received my PhD from the University of Melbourne in 2021, with a focus on data stream processing applications in edge and cloud computing environments. I have also worked as a Java software engineer at WSO2, where I oversaw the log4j 2.0 upgrade of the Carbon Kernel and helped develop distributed caching using hazelcast. I have also completed an internship at KISTERS AG in Germany as a trainee software engineer where I developed a MOD4 protocol driver using C++.</p>
+<p>I lead a small team and set the pipeline design and data modelling patterns we build against. Most of my time still goes into designing and building pipelines on Databricks and Delta Lake, and I stay close to the code. I am the in-house subject matter expert for AEMO market data (MMS), MSATS, and PDR, and I handled our migration off SQL Server.</p>
 
-<p>Having worked in the software engineering domain for years, my expertise is in software/system design, data engineering, and distributed systems.</p>
+<p>I came to this from a PhD in distributed systems at the University of Melbourne, and before that more than half a decade lecturing at the University of Moratuwa in Sri Lanka. I started out as a Java engineer at WSO2 working on the Carbon Kernel. The teaching years left me comfortable explaining complex, regulated data to technical teams and senior decision makers alike.</p>
+
+<p>Outside of work I am interested in how AEMO market data adds commercial value to the grid. That is what <a href="/projects/nem-constraints/">NEM Constraint Watch</a> is about.</p>
 
 <p>Skills:</p>
 <ul>
-  <li>Programming: <code class="language-plaintext highlighter-rouge">Python, Java, Bash, C++, Dart</code>
+  <li>Energy market domain: <code class="language-plaintext highlighter-rouge">AEMO NEM market data (MMS), MSATS, PDR, NEM constraints</code>
 </li>
-  <li>Cloud/DevOps: <code class="language-plaintext highlighter-rouge">AWS, Kubernetes, Docker, IaC, Git</code>
+  <li>Languages and data: <code class="language-plaintext highlighter-rouge">Python, SQL, PySpark, Java, C++, Bash, Apache Spark, pandas, NoSQL</code>
 </li>
-  <li>Data: <code class="language-plaintext highlighter-rouge">SQL (MySQL, PostgreSQL, SQLite), NoSQL (MongoDB, Cloud Firestore)</code>
+  <li>Platforms and tooling: <code class="language-plaintext highlighter-rouge">Databricks, Delta Lake, Azure Data Factory, Databricks Workflows</code>
 </li>
-  <li>Frameworks/SDKs: <code class="language-plaintext highlighter-rouge">Flask, Django, Flutter, Hyperledger Fabric, Apache Storm, Apache Beam, Apache Spark, Apache Kafka</code>
+  <li>Automation and AI: <code class="language-plaintext highlighter-rouge">ETL and pipeline automation, AI-assisted development (Claude Code, Databricks Genie)</code>
 </li>
-  <li>Tools: <code class="language-plaintext highlighter-rouge">Poetry, PyPI, Maven, Gradle</code>
-</li>
-  <li>Delivery: <code class="language-plaintext highlighter-rouge">Agile/Scrum, CI/CD, TDD, SDLC</code>
-</li>
-  <li>Solution Design: <code class="language-plaintext highlighter-rouge">Microservices, RESTful APIs, Enterprise Integration Patterns, ERD, SOA, OOSD</code>
+  <li>Ways of working: <code class="language-plaintext highlighter-rouge">Data migration and integration, microservices, RESTful APIs, Agile/Scrum, TDD</code>
 </li>
 </ul>
 
-<p>Hobbies/Interests:</p>
-<ul>
-  <li>Cycling</li>
-  <li>Running</li>
-  <li>Reading/listening to books (sci-fi and biographies)</li>
-  <li>Listening to podcasts</li>
-  <li>Formula 1</li>
-</ul>
-
-<p>Podcasts I listen to:</p>
-<ul>
-  <li><a href="https://pca.st/ys3iorbk" rel="external nofollow noopener" target="_blank">Geraint Thomas Cycling Club</a></li>
-  <li><a href="https://pca.st/b91O" rel="external nofollow noopener" target="_blank">Watts Occurring</a></li>
-  <li><a href="https://pca.st/soundtrack" rel="external nofollow noopener" target="_blank">The Soundtrack Show</a></li>
-</ul>
-
-<p>Books I’m currently reading:</p>
-<ul>
-  <li><a href="https://www.goodreads.com/review/list/59966651?shelf=currently-reading" rel="nofollow" target="_blank"><img alt="Books Gayashan is currently reading" src="https://s.gr-assets.com/images/badge/badge1.jpg"></a></li>
-</ul>
+<p>Away from the keyboard I ride bikes (road, gravel, and cross country) and read science fiction and biographies.</p>
 
           </div>
-
-          <!-- News -->
-          
-
-          <!-- Latest posts -->
-          
 
           <!-- Selected papers -->
           
 
-          <!-- Good reads -->
-          <style type="text/css" media="screen">
-            .gr_grid_container {
-              /* customize grid container div here. eg: width: 500px; */
-            }
-          
-            .gr_grid_book_container {
-              /* customize book cover container div here */
-              float: left;
-              width: 98px;
-              height: 160px;
-              padding: 0px 0px;
-              overflow: hidden;
-            }
-          </style>
-          <div id="gr_grid_widget_1682828490">
-            <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
-            <div class="gr_grid_container">
-              <div class="gr_grid_book_container">
-<a title="A Promised Land" rel="nofollow" href="https://www.goodreads.com/book/show/55361205-a-promised-land" target="_blank"><img alt="A Promised Land" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600357110l/55361205._SX98_.jpg"></a>
-              </div>
-              <div class="gr_grid_book_container">
-<a title="Carrying the Fire: An Astronaut's Journey" rel="nofollow" href="https://www.goodreads.com/book/show/612456.Carrying_the_Fire" target="_blank"><img alt="Carrying the Fire: An Astronaut's Journey" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347311290l/612456._SX98_.jpg"></a>
-              </div>
-              <br style="clear: both"><br><a class="gr_grid_branding" style="font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both" rel="nofollow" href="https://www.goodreads.com/user/show/59966651-gayashan" target="_blank">Gayashan's favorite books »</a>
-              <noscript>
-<br>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Gayashan, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
-            </div>
-          
-          </div>
-          <script src="https://www.goodreads.com/review/grid_widget/59966651.Gayashan's%20currently-reading%20book%20montage?cover_size=medium&amp;hide_link=&amp;hide_title=true&amp;num_books=20&amp;order=d&amp;shelf=currently-reading&amp;sort=date_added&amp;widget_id=1682828490" type="text/javascript" charset="utf-8"></script>
+          <!-- Goodreads -->
+          <!-- goodreads.html --><style type="text/css" media="screen">
+  .gr_grid_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .gr_grid_book_container {
+    width: 98px;
+    height: 160px;
+    overflow: hidden;
+  }
+
+  .gr_grid_branding {
+    font-size: 0.9em;
+    text-decoration: none;
+    width: 100%;
+  }
+</style>
+<!-- Hidden until the script below confirms at least one cover rendered. Goodreads
+     returns an empty container for an empty shelf, so without this the heading
+     would sit above blank space whenever nothing is on the shelf. -->
+<section id="gr_section_1682828490" hidden>
+  <h2>Currently Reading</h2>
+  <div id="gr_grid_widget_1682828490"></div>
+</section>
+<script src="https://www.goodreads.com/review/grid_widget/59966651.currently-reading?cover_size=medium&amp;hide_link=&amp;hide_title=true&amp;num_books=10&amp;order=d&amp;shelf=currently-reading&amp;sort=date_added&amp;widget_id=1682828490" type="text/javascript" charset="utf-8"></script>
+<script>
+  (function () {
+    // Runs after the Goodreads script above, which is render-blocking. If that script
+    // was blocked, failed, or returned no books, the section simply stays hidden.
+    var widget = document.getElementById('gr_grid_widget_1682828490');
+    var section = document.getElementById('gr_section_1682828490');
+    if (widget && section && widget.querySelector('.gr_grid_book_container')) {
+      section.hidden = false;
+    }
+  })();
+</script>
+
+
           <!-- Social -->
         </article>
 
@@ -245,7 +260,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Gayashan  Amarasinghe. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+        © Copyright 2026 Gayashan  Amarasinghe. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       </div>
     </footer>
@@ -284,7 +299,6 @@
     };
   </script>
   <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
     
     

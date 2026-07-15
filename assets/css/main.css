@@ -498,8 +498,14 @@ footer.sticky-bottom {
 }
 .projects .grid-sizer,
 .projects .grid-item {
-  width: 250px;
+  width: 100%;
   margin-bottom: 10px;
+}
+@media (min-width: 576px) {
+  .projects .grid-sizer,
+  .projects .grid-item {
+    width: calc(50% - 5px);
+  }
 }
 .projects h2.category {
   color: var(--global-divider-color);

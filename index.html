@@ -210,32 +210,51 @@
 
           <!-- Goodreads -->
           <!-- goodreads.html --><style type="text/css" media="screen">
+  /* Deliberately small: this is a footnote to the page, not a feature of it.
+     Heights match what Goodreads serves for cover_size (small -> _SY75_), so the
+     covers are not being scaled in the browser. */
   .gr_grid_container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    align-items: flex-end;
+    gap: 8px;
   }
 
   .gr_grid_book_container {
-    width: 98px;
-    height: 160px;
+    height: 75px;
     overflow: hidden;
   }
 
+  .gr_grid_book_container img {
+    height: 75px;
+    width: auto;
+  }
+
   .gr_grid_branding {
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-decoration: none;
     width: 100%;
+    opacity: 0.7;
+  }
+
+  /* Scaled well down from the theme's h2. At full size the heading dwarfed the
+     covers and pulled more attention than the section deserves. */
+  .gr_heading {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--global-text-color-light);
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
   }
 </style>
 <!-- Hidden until the script below confirms at least one cover rendered. Goodreads
      returns an empty container for an empty shelf, so without this the heading
      would sit above blank space whenever nothing is on the shelf. -->
 <section id="gr_section_1682828490" hidden>
-  <h2>Currently Reading</h2>
+  <h2 class="gr_heading">Currently Reading</h2>
   <div id="gr_grid_widget_1682828490"></div>
 </section>
-<script src="https://www.goodreads.com/review/grid_widget/59966651.currently-reading?cover_size=medium&amp;hide_link=&amp;hide_title=true&amp;num_books=10&amp;order=d&amp;shelf=currently-reading&amp;sort=date_added&amp;widget_id=1682828490" type="text/javascript" charset="utf-8"></script>
+<script src="https://www.goodreads.com/review/grid_widget/59966651.currently-reading?cover_size=small&amp;hide_link=&amp;hide_title=true&amp;num_books=10&amp;order=d&amp;shelf=currently-reading&amp;sort=date_added&amp;widget_id=1682828490" type="text/javascript" charset="utf-8"></script>
 <script>
   (function () {
     // Runs after the Goodreads script above, which is render-blocking. If that script

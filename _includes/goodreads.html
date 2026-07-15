@@ -3,34 +3,54 @@
 {%- assign gr_shelf = site.goodreads.shelf | default: 'currently-reading' -%}
 {%- assign gr_widget = site.goodreads.widget_id | default: '1682828490' -%}
 {%- assign gr_num = site.goodreads.num_books | default: 10 -%}
+{%- assign gr_cover = site.goodreads.cover_size | default: 'small' -%}
 <style type="text/css" media="screen">
+  /* Deliberately small: this is a footnote to the page, not a feature of it.
+     Heights match what Goodreads serves for cover_size (small -> _SY75_), so the
+     covers are not being scaled in the browser. */
   .gr_grid_container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    align-items: flex-end;
+    gap: 8px;
   }
 
   .gr_grid_book_container {
-    width: 98px;
-    height: 160px;
+    height: 75px;
     overflow: hidden;
   }
 
+  .gr_grid_book_container img {
+    height: 75px;
+    width: auto;
+  }
+
   .gr_grid_branding {
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-decoration: none;
     width: 100%;
+    opacity: 0.7;
+  }
+
+  /* Scaled well down from the theme's h2. At full size the heading dwarfed the
+     covers and pulled more attention than the section deserves. */
+  .gr_heading {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--global-text-color-light);
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
   }
 </style>
 <!-- Hidden until the script below confirms at least one cover rendered. Goodreads
      returns an empty container for an empty shelf, so without this the heading
      would sit above blank space whenever nothing is on the shelf. -->
 <section id="gr_section_{{ gr_widget }}" hidden>
-  <h2>{{ include.heading | default: 'Bookshelf' }}</h2>
+  <h2 class="gr_heading">{{ include.heading | default: 'Bookshelf' }}</h2>
   <div id="gr_grid_widget_{{ gr_widget }}"></div>
 </section>
 <script
-  src="https://www.goodreads.com/review/grid_widget/{{ gr_user }}.{{ gr_shelf }}?cover_size=medium&hide_link=&hide_title=true&num_books={{ gr_num }}&order=d&shelf={{ gr_shelf }}&sort=date_added&widget_id={{ gr_widget }}"
+  src="https://www.goodreads.com/review/grid_widget/{{ gr_user }}.{{ gr_shelf }}?cover_size={{ gr_cover }}&hide_link=&hide_title=true&num_books={{ gr_num }}&order=d&shelf={{ gr_shelf }}&sort=date_added&widget_id={{ gr_widget }}"
   type="text/javascript" charset="utf-8"></script>
 <script>
   (function () {

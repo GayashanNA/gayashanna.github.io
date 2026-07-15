@@ -109,6 +109,7 @@ goodreads:
   user_id: "59966651"
   shelf: currently-reading
   num_books: 10
+  cover_size: small # small -> _SY75_ covers; the include's CSS heights assume this
   widget_id: "1682828490"
 
 # -----------------------------------------------------------------------------

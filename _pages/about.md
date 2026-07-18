@@ -24,7 +24,7 @@ I lead a small team and set the pipeline design and data modelling patterns we b
 
 I came to this from a PhD in distributed systems at The University of Melbourne, and before that more than half a decade lecturing at the University of Moratuwa in Sri Lanka. I started out as a Java engineer at WSO2 working on the Carbon Kernel. The teaching years left me comfortable explaining complex, regulated data to technical teams and senior decision makers alike.
 
-Outside of work I am interested in how AEMO market data adds commercial value to the grid. That is what [NEM Constraint Watch](/projects/nem-constraints/) is about.
+I have a personal interest in how data adds commercial value. [NEM Constraints](/projects/nem-constraints/) is where I explore that with AEMO market data.
 
 Skills:
 * Energy market domain: `AEMO NEM market data (MMS), MSATS, PDR, NEM constraints`
@@ -33,4 +33,4 @@ Skills:
 * Automation and AI: `ELT/ETL pipeline automation, AI-assisted development (Claude Code, Databricks Genie)`
 * Ways of working: `Data migration and integration, microservices, RESTful APIs, Agile/Scrum, TDD`
 
-Away from the keyboard I ride bikes (road, gravel, and cross country) and read science fiction and biographies.
+Away from the keyboard I ride bikes (road, gravel, and cross country) and read science fiction and biographies. I am also the garden automator and fixer behind my wife's gardening passion.

@@ -132,7 +132,7 @@
 - title: Selected Projects
   type: time_table
   contents:
-    - title: <a href="/projects/nem-constraints/">NEM Constraint Watch</a>
+    - title: <a href="/projects/nem-constraints/">NEM Constraints</a>
       year: 2026 - now
       description:
         - Models AEMO NEM network and FCAS constraints and their binding, evaluating constraint equations against dispatch conditions to determine which constraints bind and when. Live at <a href="https://nem.amrsnghe.org">nem.amrsnghe.org</a>.

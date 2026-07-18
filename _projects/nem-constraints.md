@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NEM Constraint Watch
+title: NEM Constraints
 description: Modelling AEMO NEM constraints, and predicting which ones are about to bind.
 img: assets/img/projects/nem/dashboard.jpg
 importance: 1
@@ -15,7 +15,7 @@ Constraints decide what generators are allowed to dispatch, and what that dispat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/nem/dashboard.jpg" title="NEM Constraint Watch dashboard" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/nem/dashboard.jpg" title="NEM Constraints dashboard" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

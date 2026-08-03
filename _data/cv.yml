@@ -133,9 +133,9 @@
   type: time_table
   contents:
     - title: <a href="/projects/nem-constraints/">NEM Constraints</a>
-      year: 2026 - now
+      year: 2026
       description:
-        - Models AEMO NEM network and FCAS constraints and their binding, evaluating constraint equations against dispatch conditions to determine which constraints bind and when. Live at <a href="https://nem.amrsnghe.org">nem.amrsnghe.org</a>.
+        - Modelled AEMO NEM network and FCAS constraints and their binding, evaluating constraint equations against dispatch conditions to determine which constraints bound and when. Formerly live at nem.amrsnghe.org; now wound down.
     - title: <a href="/projects/mcq-autograder/">MCQAutoGrader</a>
       year: 2021 - now
       description:

@@ -11,7 +11,7 @@ email: gayashan.amarasinghe@gmail.com
 # schema.org JSON-LD string in metadata.html and makes it invalid JSON.
 description: >-
   Gayashan Amarasinghe, a data engineer working on Australian energy market data.
-  Data Technical Lead at an Australian gentailer, with a PhD in distributed systems.
+  Founding Data Engineer at Gridscout, previously Data Technical Lead at an Australian gentailer, with a PhD in distributed systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

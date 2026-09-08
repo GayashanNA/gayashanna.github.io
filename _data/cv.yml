@@ -4,7 +4,7 @@
     - name: Full Name
       value: Gayashan Niroshana Amarasinghe
     - name: Current Role
-      value: Data Technical Lead, <a href="https://www.zenenergy.com.au/">ZEN Energy</a>
+      value: Founding Data Engineer, <a href="https://gridscout.com.au">Gridscout</a>
     - name: Location
       value: Echuca, VIC, Australia
     - name: Contact
@@ -36,24 +36,32 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Founding Data Engineer
+      institution: Gridscout, Australia
+      year: Sep 2026 - Present
+      description:
+        - Joined Gridscout, a network intelligence platform for the National Electricity Market that maps grid constraints, outages, and capacity, as one of its founding data engineers.
+        - Build out and harden the data backend that powers the product, shaping how market and network data is ingested, modelled, and served as the platform grows.
+        - Bring AEMO market data expertise and the pipeline design, data modelling, and reliability practices built up at a gentailer into an early-stage product setting.
+
     - title: Data Technical Lead
       institution: ZEN Energy, Australia
-      year: May 2023 - Present
+      year: May 2023 - Aug 2026
       description:
-        - Took on growing ownership of the data platform across three years and three roles, moving from building pipelines to designing and running the platform end to end.
-        - Lead a small team of a senior energy analyst and a data engineer, while staying hands-on with the platform myself.
+        - Took on growing ownership of the data platform across more than three years and three roles, moving from building pipelines to designing and running the platform end to end.
+        - Led a small team of a senior energy analyst and a data engineer, while staying hands-on with the platform myself.
         - title: Role progression
           contents:
-            - Data Technical Lead (Mar 2026 - Present)
+            - Data Technical Lead (Mar 2026 - Aug 2026)
             - Senior Data Engineer (Mar 2025 - Mar 2026)
             - Data Engineer (May 2023 - Mar 2025)
-        - Serve as the in-house subject matter expert for AEMO market data (MMS) and for managing robust data delivery and retrieval through the PDR application and the MSATS system, including the reference-data and mapping conventions that keep records consistent.
+        - Served as the in-house subject matter expert for AEMO market data (MMS) and for managing robust data delivery and retrieval through the PDR application and the MSATS system, including the reference-data and mapping conventions that keep records consistent.
         - Handled the migration of the enterprise data platform from SQL Server to Databricks, and productionised end-to-end pipelines covering ingestion, transformation, validation, and reporting across forecasting, trading, and regulatory workflows.
         - Redesigned the high-volume 5-minute market and meter data models that downstream processes depend on, improving performance and reliability of the pipelines feeding them.
         - Built pipelines that ingest and reconcile data from external and third-party sources (energy market systems, CRM, billing, weather, and market-curve providers) into a single analytics layer, handling varied and often messy source structures.
         - Re-architected the platform's backup and recovery framework to be modular and configurable, driven by data criticality rather than a fixed schedule.
         - Built AI-assisted development into the day-to-day pipeline workflow (Claude Code and Databricks Genie), cutting the manual effort in building and testing pipelines, and applied that same approach to sharpen testing, code review, and data quality practice.
-        - Set the pipeline design, data-modelling, and orchestration patterns the rest of the team builds against, and work directly with other engineers and analysts to get them applying those patterns independently.
+        - Set the pipeline design, data-modelling, and orchestration patterns the rest of the team built against, and worked directly with other engineers and analysts to get them applying those patterns independently.
         - title: Selected work
           contents:
             - "Virtual Tolling Agreement settlement system: one of the first settlement systems for a Virtual BESS. Validates trader-submitted nominations, computes state of charge across dispatch intervals, and settles dispatched energy against capacity, cycle-count, and charge/discharge constraints. In production."

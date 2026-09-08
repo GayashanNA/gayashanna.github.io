@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i>ගයාෂාන් අමරසිංහ</i> &middot; Data Technical Lead at an Australian gentailer
+subtitle: <i>ගයාෂාන් අමරසිංහ</i> &middot; Founding Data Engineer at <a href="https://gridscout.com.au">Gridscout</a>
 
 profile:
   align: right
@@ -18,9 +18,9 @@ goodreads_heading: Currently Reading
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Data Technical Lead at an Australian gentailer, an energy retailer and generator, and a data engineer at the core. I have spent three years there building and running the data platform. The work runs from ingestion of raw market data through to the reporting and forecasting that trading, finance, and executive stakeholders depend on.
+I have recently joined [Gridscout](https://gridscout.com.au) as a Founding Data Engineer. I am building out and hardening the data backend that powers its network intelligence platform for the National Electricity Market, shaping how market and network data is ingested, modelled, and served as the product grows. Data engineering is the core of what I do: turning raw, messy data into reliable, well-modelled datasets that a product can be built on.
 
-I lead a small team and set the pipeline design and data modelling patterns we build against. Most of my time still goes into designing and building pipelines on Databricks and Delta Lake, and I stay close to the code. I am the in-house subject matter expert for AEMO market data (MMS), MSATS, and PDR, and I handled our migration off SQL Server.
+Before Gridscout I spent more than three years at an Australian gentailer, an energy retailer and generator, where I grew from Data Engineer to Data Technical Lead. I built and ran the enterprise data platform on Databricks and Delta Lake, led a small team, set the pipeline design and data modelling patterns we built against, and handled the migration off SQL Server. I was the in-house subject matter expert for AEMO market data (MMS), MSATS, and PDR, covering everything from ingestion of raw market data through to the reporting and forecasting that trading, finance, and executive stakeholders depended on.
 
 I came to this from a PhD in distributed systems at The University of Melbourne, and before that more than half a decade lecturing at the University of Moratuwa in Sri Lanka. I started out as a Java engineer at WSO2 working on the Carbon Kernel. The teaching years left me comfortable explaining complex, regulated data to technical teams and senior decision makers alike.
 
@@ -33,4 +33,4 @@ Skills:
 * Automation and AI: `ELT/ETL pipeline automation, AI-assisted development (Claude Code, Databricks Genie)`
 * Ways of working: `Data migration and integration, microservices, RESTful APIs, Agile/Scrum, TDD`
 
-Away from the keyboard I ride bikes (road, gravel, and cross country) and read science fiction and biographies. I am also the garden automator and fixer behind my wife's gardening passion.
+Away from the keyboard I ride bikes (road, gravel, and cross country) and read science fiction and biographies. I also help my wife with her gardening passion, mostly by automating things and fixing whatever breaks.
